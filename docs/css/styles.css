@@ -892,6 +892,17 @@ video {
     height: 50%;
   }
 
+  .md\:min-h-screen {
+    min-height: 100vh;
+  }
+
+  @media (min-width: 768px) {
+
+    .md\:md\:min-h-screen {
+      min-height: 100vh;
+    }
+  }
+
   .md\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
