@@ -1,6 +1,6 @@
 module.exports = {
   darkMode: 'class',
-  content: ['dist/index.html'],
+  content: ['docs/index.html'],
   theme: {
     debugScreens: {
       position: ['top', 'left'],
