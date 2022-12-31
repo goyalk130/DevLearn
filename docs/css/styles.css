@@ -612,9 +612,6 @@ video {
 .w-full {
   width: 100%;
 }
-.w-2\/6 {
-  width: 33.333333%;
-}
 .max-w-screen-xl {
   max-width: 1280px;
 }
@@ -784,9 +781,6 @@ video {
 }
 .text-center {
   text-align: center;
-}
-.text-right {
-  text-align: right;
 }
 .text-xl {
   font-size: 1.25rem;
@@ -1056,6 +1050,10 @@ video {
     min-height: 100vh;
   }
 
+  .md\:w-2\/6 {
+    width: 33.333333%;
+  }
+
   .md\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -1070,6 +1068,10 @@ video {
 
   .md\:p-8 {
     padding: 2rem;
+  }
+
+  .md\:text-right {
+    text-align: right;
   }
 
   .md\:text-5xl {
