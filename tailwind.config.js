@@ -2,9 +2,9 @@ module.exports = {
   darkMode: 'class',
   content: ['docs/index.html'],
   theme: {
-    debugScreens: {
-      position: ['top', 'left'],
-    },
+    // debugScreens: {
+    //   position: ['top', 'left'],
+    // },
     extend: {
       fontFamily: {
         headline: [''],
@@ -14,5 +14,5 @@ module.exports = {
       },
     },
   },
-  plugins: [require('tailwindcss-debug-screens')],
+  // plugins: [require('tailwindcss-debug-screens')],
 };
